@@ -1,0 +1,12 @@
+<suite name = "TutorialsNinja Automation Suite">
+    <listeners>
+        <listener class-name="com.tutorialsninja.qa.listeners.MyListeners"/>
+    </listeners>
+    <test thread-count = "5" name = "TutorialsNinja Tests">
+        <classes>
+            <class name = "com.tutorialsninja.qa.testcases.Register"/>
+            <class name = "com.tutorialsninja.qa.testcases.Login"/>
+            <class name = "com.tutorialsninja.qa.testcases.Search"/>
+        </classes>
+    </test>
+</suite>
