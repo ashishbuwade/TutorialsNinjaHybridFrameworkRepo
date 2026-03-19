@@ -19,6 +19,9 @@ public class Base {
     public Properties dataProp;
 
     public Base(){
+
+        //Commented Line
+
         prop = new Properties();
         File propFile = new File(System.getProperty("user.dir")+"\\src\\test\\java\\com\\tutorialsninja\\qa\\config\\config.properties");
 
